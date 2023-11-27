@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(2,5,15,0.25),rgba(2,5,15,0.25)),url("Background\ image.jpg");
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 90px;
+    background-color:darkslategray;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    width: 300px;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.menu-list{
+    padding-left: 250px;
+}
+.menu-list a{
+    color: #ededed;;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 10px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.menu-list .active{
+    background-color: dodgerblue;
+}
+.menu-list a:hover{
+    background-color:  dodgerblue;
+
+}
+.about-brand{
+    padding: 50px 80px;
+}
+.about-brand p{
+    color: dodgerblue;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 25px;
+    font-style: italic;
+}
+.text{
+    margin-top: 15px;
+}
+.text h1 span{
+    color: dodgerblue;
+    font-size: 35px;
+}
+.text h2 span{
+    color: dodgerblue;
+    font-size: 35px;
+}
+.text h3 span{
+    color: dodgerblue;
+    font-size: 35px;
+}
+.text h4 span{
+    color: dodgerblue;
+    font-size: 35px;
+}
+.text h5 span{
+    color: dodgerblue;
+    font-size: 35px;
+}
+.text h1{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.text h2{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.text h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.text h4{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.text h5{
+    font-size: 20px;
+    padding-top: 10px;
+}
+

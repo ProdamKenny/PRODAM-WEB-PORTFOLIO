@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(2,5,15,0.25),rgba(2,5,15,0.25)),url("Background\ image.jpg");
+}
+.nav{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    height:100px ;
+    background-color: darkslategrey;
+}
+#logo{
+    padding: 5px 50px 5px;
+}
+.menu{
+    padding: 45px 100px;
+}
+.menu a{
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.menu .active{
+    background-color: dodgerblue;
+}
+.menu a:hover{
+    background-color:  dodgerblue;
+
+}
+/*.header-text{
+    padding: 200px 50px ;
+}*/
+.header-text .container{
+    display: flex;
+    padding: 100px 120px;
+}
+.header-text img{
+    width: 610px;
+    height: 610px;
+}
+.text{
+    padding-top: 150px;
+}
+.text p{
+    font-size: 35px;;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.text p span{
+    font-size: 40px;
+    color: dodgerblue;
+    font-weight: bold;
+    padding-top: 15px;
+    font-family: cursive;
+}
+.text h1 span{
+    font-size: 25px; ;
+    font-family: sans-serif;
+    color: dodgerblue;
+}
+.text h1{
+    font-size: 20px; ;
+    font-family: sans-serif;
+    padding-top: 10px;
+    word-spacing: 1px;
+}
+.text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font: italic;
+    padding-top: 10px;
+    color: dodgerblue;
+}
+.button{
+    padding-top: 20px;
+}
+.button button{
+    margin: 10px 10px;
+}
+.button a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.button .btn1 {
+    border: 2px;
+    border-radius: 5px;
+    font-size: 35px;
+    background-color:transparent;
+    border-color:dodgerblue ; 
+    background-color: dodgerblue; 
+}
+.button .btn2 a{
+    color: dodgerblue;
+}
+.button .btn2{
+    border:2px;
+    border-radius: 5px;
+    font-size: 35px;
+    background-color:transparent;
+    background-color:whitesmoke;
+}
+.about{
+    width: 100%;
+    height: 80vh;
+    border-top: 10px solid darkslategray;
+    background-image:linear-gradient(rgba(2,5,15,0.25),rgba(2,5,15,0.25)),url("Background\ image.jpg"); ;
+}
+.about .content{
+    display: flex;
+    padding: 50px 100px;
+}
+.about-img{
+    border: 10px solid darkslategrey;
+    border-radius: 15px;
+    max-width: 350px;
+}
+.about-img img{
+    width: 350px;
+    height: 350px;
+}
+.about-text{
+    padding-top: 20px;
+    padding-left:150px ;
+}
+.about p{
+    color: dodgerblue;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-style: italic;
+}
+.about-text h1{
+    font-size: 20px;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    padding-bottom: 5px;
+    word-spacing: 0.5px;
+}
+.about-text h1 span{
+    color: dodgerblue;
+    font-size: 35px;
+}
+.about-text h2{
+    font-size: 20px;
+    padding-bottom: 5px;
+    word-spacing: 0.5px;
+}
+.about-text h2 span{
+    color: dodgerblue;
+}
+.about-text h3{
+    padding-bottom: 5px;
+    word-spacing: 0.5px;
+}
+.service{
+    border-top: 10px solid darkslategray;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(2,5,15,0.25),rgba(2,5,15,0.25)),url("Background\ image.jpg"); ;
+}
+.service p{
+    color: dodgerblue;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    font-style: italic;
+}
+.service .container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.sect{
+    margin: 15px 15px;
+}
+.sect h1{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 5px;
+
+}
+.sect-img img{
+    margin-top: 5px;
+    margin-left: 40px;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+}
+.sect h2{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.service .button1{
+    border: 10px solid dodgerblue; 
+    border-radius: 10px;
+    margin-left: 600px;
+    font-size: 40px;
+    background-color: transparent;
+    
+}
+.service .button1 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+.contact{
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(4, 36, 36);
+}
+.contact p{
+     color: dodgerblue;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 35px;
+    font-style: italic;
+}
+.social{
+    padding: 10px 450px;
+}
+.social h1{
+    font-size:30px;
+    text-align: center;
+}
+.social h2{
+    font-size: 25px;
+    text-align: center;
+}
+.social-icons{
+    padding-top: 10px;
+    padding-left: 150px;
+}
+.social-icons i{
+    font-size: 55px;
+    margin: 7px 7px;
+}
+.icon1{
+    color: #3b5998;
+}
+.icon2{
+    color: #c4405f;
+}
+.icon3{
+    color: #0088cc;
+}
+.icon4{
+    color: #1da1f2;
+}
+.icon5{
+    color: #6cc644;
+}
+.contact h1{
+    text-align: center;
+    padding-top: 25px;
+    font: italic;
+}
